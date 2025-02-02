@@ -2,6 +2,12 @@
 
 Welcome once again to our wonderful Candy Factory Challenge! Here, you’ll be diving into **multiple inheritance** and **templates** in C++. Below is an **explicit** breakdown of **each function** we expect you to implement. No need to guess—just follow the sweet instructions. 😁
 
+## What are you going to do?
+- **SugarSupplier**: Manages the supply of sugar. You’ll store a supplier name, dynamically allocate memory for it, and provide a function to simulate sugar being supplied.
+- **ChocolateSupplier**: Manages the supply of chocolate. Similar to `SugarSupplier`, you store a name and simulate chocolate supply.
+- **CandyMaker**: Inherits publicly from both `SugarSupplier` and `ChocolateSupplier`. This represents your main candy factory worker who relies on both sugar and chocolate to create candy.
+- **CandyBox<T>**: A templated container class that can store items (either candy names or candy objects, depending on your design). You’ll use dynamic arrays and carefully handle memory to add, remove, and display items.
+
 ---
 
 ## 1. `SugarSupplier` Class
